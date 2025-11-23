@@ -1,0 +1,366 @@
+[
+  {
+    "id": "7d584650-6614-465e-b3b9-a5fccd995924",
+    "email": "admin@microservices.com",
+    "username": "admin",
+    "password": "$2a$12$kx1GiV2rWIXvvxWbHOWBQ.k6LQYtzmQrHx5CDXmVEn.gZN1WSst8e",
+    "firstName": "Administrador",
+    "lastName": "Sistema",
+    "role": "admin",
+    "status": "active",
+    "createdAt": "2025-09-20T07:30:57.210Z",
+    "updatedAt": "2025-09-20T07:30:57.210Z"
+  },
+  {
+    "id": "74f77265-9d45-47ce-b0af-f700b74c1157",
+    "email": "testuser@example.com",
+    "username": "testuser",
+    "password": "$2a$12$zokyIzhURSDsvLYSpBvpZuPjrsWdsB2s3qkmCpF31eLjngkpE5pUu",
+    "firstName": "Test",
+    "lastName": "User",
+    "preferences": {
+      "defaultStore": "Store A",
+      "currency": "USD"
+    },
+    "createdAt": 1758353528837,
+    "updatedAt": "2025-09-20T07:32:08.838Z"
+  },
+  {
+    "id": "265a21c5-957e-4b2f-9b42-db16962b8830",
+    "email": "testuser2@example.com",
+    "username": "testuser",
+    "password": "$2a$12$0tlP.iTcgVyYFgHV.zh.2u9WFP7lZZMaO5qZ2soX8L68Z4dCbPlQO",
+    "firstName": "Updated",
+    "lastName": "User",
+    "preferences": {
+      "defaultStore": "Store A",
+      "currency": "USD"
+    },
+    "createdAt": 1758353598108,
+    "updatedAt": "2025-09-20T20:00:14.527Z"
+  },
+  {
+    "id": "c635fe57-4490-4bfc-8f4d-745c648bf339",
+    "email": "testuser3@example.com",
+    "username": "testuser",
+    "password": "$2a$12$T1JcR3bBBrs2uWF92kSoRuXghk8Xu9ZtWfQK/K40bALbPBxw/S/I6",
+    "firstName": "Test",
+    "lastName": "User",
+    "preferences": {
+      "defaultStore": "Store A",
+      "currency": "USD"
+    },
+    "createdAt": 1758354159403,
+    "updatedAt": "2025-09-20T07:42:39.404Z"
+  },
+  {
+    "id": "f9788dd4-441b-4a39-8ecb-5bebd6d235c8",
+    "email": "testuser321@example.com",
+    "username": "testuser",
+    "password": "$2a$12$mvjI/bA6GwK7XQVJMy3Q0OI8N/Px94GChwrylQqwzyYZXjwIU7Ydm",
+    "firstName": "Test",
+    "lastName": "User",
+    "preferences": {
+      "defaultStore": "Store A",
+      "currency": "USD"
+    },
+    "createdAt": 1758360039465,
+    "updatedAt": "2025-09-20T09:20:39.466Z"
+  },
+  {
+    "id": "a3d58ab9-1399-4940-9ded-0eff866c1e3f",
+    "email": "testuser333@example.com",
+    "username": "testuser",
+    "password": "$2a$12$0bmnKfONaarCRHoG/V8oruKZVyFsX3pj5ov7n5MR.9EDhVJpt3JqC",
+    "firstName": "Test",
+    "lastName": "User",
+    "preferences": {
+      "defaultStore": "Store A",
+      "currency": "USD"
+    },
+    "createdAt": 1758360097564,
+    "updatedAt": "2025-09-20T09:21:37.564Z"
+  },
+  {
+    "id": "0069d640-07cd-4ce7-8502-3dfd2a10e73a",
+    "email": "testuser4@example.com",
+    "username": "testuser",
+    "password": "$2a$12$NDjyMzFiRYG6Bxwng87MH.jYu9GB.28yNZ8Dmga0UHeOvpJ5UgdsW",
+    "firstName": "Test",
+    "lastName": "User",
+    "preferences": {
+      "defaultStore": "Store A",
+      "currency": "USD"
+    },
+    "createdAt": 1758397445942,
+    "updatedAt": "2025-09-20T19:44:05.943Z"
+  },
+  {
+    "id": "62ea16c7-4946-49b2-8d1f-7a55f5421931",
+    "email": "user@example.com",
+    "username": "user123",
+    "password": "$2a$12$7R0tooiLvr0PHbC3q314dusTYUH2i9ztMNdk6NwUGovDE8ADyGsN.",
+    "firstName": "John",
+    "lastName": "Doe",
+    "preferences": {},
+    "createdAt": 1758409290797,
+    "updatedAt": "2025-09-20T23:01:30.798Z"
+  },
+  {
+    "id": "93f10689-71e8-42fb-936c-46e017f9e676",
+    "email": "demo.user55533@email.com",
+    "username": "demouser",
+    "password": "$2a$12$9xBKGY1fAMuRqQYXn8TqH.25esb.zg/PO3qU.a4VBvvE18PdzMHFi",
+    "firstName": "Demo",
+    "lastName": "User",
+    "preferences": {},
+    "createdAt": 1758413863920,
+    "updatedAt": "2025-09-21T00:17:43.921Z"
+  },
+  {
+    "id": "25b6c8ad-51be-414a-bd37-f09e85837f40",
+    "email": "demo.1@email.com",
+    "username": "demouser",
+    "password": "$2a$12$FzaSLvNzNDznqPgbiymgXeYXIFghLXDyFw3FXVSPXD7oKXQOj8LEW",
+    "firstName": "Demo",
+    "lastName": "User",
+    "preferences": {},
+    "createdAt": 1758414040665,
+    "updatedAt": "2025-09-21T00:20:40.665Z"
+  },
+  {
+    "id": "02e69f2e-7627-45ae-80ef-1dca362add4d",
+    "email": "demo.12@email.com",
+    "username": "demouser",
+    "password": "$2a$12$jywN98Ai/oyp5ExMGioXduZPZIu1hKkdeGz.rkcxMFsqIlQvtINJG",
+    "firstName": "Demo",
+    "lastName": "User",
+    "preferences": {},
+    "createdAt": 1758414082375,
+    "updatedAt": "2025-09-21T00:21:22.375Z"
+  },
+  {
+    "id": "0d79d638-3850-4360-8574-bd1a1f39778e",
+    "email": "demo.123@email.com",
+    "username": "demouser",
+    "password": "$2a$12$MV38aX.8QuS8LduZAERToe418LJgCw9AJ1SC9Ys..CkmIIs6EL1w2",
+    "firstName": "Demo",
+    "lastName": "User",
+    "preferences": {},
+    "createdAt": 1758414201026,
+    "updatedAt": "2025-09-21T00:23:21.026Z"
+  },
+  {
+    "id": "cd55fddf-f74a-435a-b04d-7729943dd5d2",
+    "email": "demo.1232@email.com",
+    "username": "demouser",
+    "password": "$2a$12$AYw0LQ.5zWQ9H3IO0ULLhuQJCOsl0Pi9w7qwGE5j1WV8V6itbJJue",
+    "firstName": "Demo",
+    "lastName": "User",
+    "preferences": {},
+    "createdAt": 1758414245212,
+    "updatedAt": "2025-09-21T00:24:05.213Z"
+  },
+  {
+    "id": "c72cea78-4421-4f81-932d-34a64c52a8e9",
+    "email": "demo.123223@email.com",
+    "username": "demouser",
+    "password": "$2a$12$sRm9VakTZ/D3ydYgzYTPfuNj7uScacM8WEhvBZ4WQhwaLos45KCtW",
+    "firstName": "Demo",
+    "lastName": "User",
+    "preferences": {},
+    "createdAt": 1758414384613,
+    "updatedAt": "2025-09-21T00:26:24.613Z"
+  },
+  {
+    "id": "1f91e759-2f2c-409d-8aa8-f16077a06ce9",
+    "email": "user123@example.com",
+    "username": "user123",
+    "password": "$2a$12$XwFw9a/HvCevwE7wBqWOOOIMiT68PdPhPEzBv85/qUUdA.ZhdL.ri",
+    "firstName": "John",
+    "lastName": "Doe",
+    "preferences": {},
+    "createdAt": 1758443977390,
+    "updatedAt": "2025-09-21T08:39:37.390Z"
+  },
+  {
+    "id": "a0d72b42-688f-49b4-8b06-f6052b8b06f6",
+    "email": "user1234@example.com",
+    "username": "user123",
+    "password": "$2a$12$BBt25eugEnfIWvlVbISdWuTaaP5ULLYDqXTGXV9PstkYCdA2BpEZi",
+    "firstName": "John",
+    "lastName": "Doe",
+    "preferences": {},
+    "createdAt": 1758444161671,
+    "updatedAt": "2025-09-21T08:42:41.671Z"
+  },
+  {
+    "id": "4c13adac-b88e-4d2d-afd1-b14f9918b988",
+    "email": "testuser3333@example.com",
+    "username": "testuser",
+    "password": "$2a$12$WnjBXGsYLGCUKwlRUWAT6Of6OCLoTAgKqLy1w.F3/qi5KMFOxVbWO",
+    "firstName": "Test",
+    "lastName": "User",
+    "preferences": {
+      "defaultStore": "Store A",
+      "currency": "USD"
+    },
+    "createdAt": 1758444202706,
+    "updatedAt": "2025-09-21T08:43:22.707Z"
+  },
+  {
+    "id": "78c61565-a718-4aeb-b8cf-0d9d05b78712",
+    "email": "testuser44444@example.com",
+    "username": "testuser",
+    "password": "$2a$12$1eqkKuxOyFktbqpBRQQ16eCUt91Ml5CkJhZDim5MRpRohra8soWQC",
+    "firstName": "Updated",
+    "lastName": "User",
+    "preferences": {
+      "defaultStore": "Store A",
+      "currency": "USD"
+    },
+    "createdAt": 1758444299135,
+    "updatedAt": "2025-09-21T08:45:53.491Z"
+  },
+  {
+    "id": "9ee0addb-8034-4dc1-8202-eb8277e12610",
+    "email": "testuser2222@example.com",
+    "username": "testuser",
+    "password": "$2a$12$2bGK7hZ2gU8bE4zRPkbJsu8900pQvfmrQ1NeaEEfQeXY2XyGmIzCW",
+    "firstName": "Updated",
+    "lastName": "User",
+    "preferences": {
+      "defaultStore": "Store A",
+      "currency": "USD"
+    },
+    "createdAt": 1758444595121,
+    "updatedAt": "2025-09-21T08:50:52.127Z"
+  },
+  {
+    "id": "ffe90754-4247-408f-86c9-6e76c46786e7",
+    "email": "user444@example.com",
+    "username": "user123",
+    "password": "$2a$12$BXBBNyizybtn3/cKrR9.c.QQvBUOHNB2utU2sgnMBX.6e0VSsz7yG",
+    "firstName": "John",
+    "lastName": "Doe",
+    "preferences": {},
+    "createdAt": 1758444981381,
+    "updatedAt": "2025-09-21T08:56:21.382Z"
+  },
+  {
+    "id": "4f50e5e1-9525-4af9-b753-7a78b4524c1b",
+    "email": "updated@example.com",
+    "username": "user123",
+    "password": "$2a$12$t70NR0RgwMJghcGbwdoF9.Ao1qfq56qvYb/uVEErkmaaWvQWwFvF6",
+    "firstName": "John Updated",
+    "lastName": "Doe Updated",
+    "preferences": {},
+    "createdAt": 1758445257167,
+    "updatedAt": "2025-09-21T09:02:20.017Z"
+  },
+  {
+    "id": "2b2e5f2f-c702-47d6-812c-8321acbe586e",
+    "email": "demo.3213212@email.com",
+    "username": "demouser",
+    "password": "$2a$12$W.gcHR2284jXvn50Kr85feAyavAkqMP9FT5DdGoy8LLDFbLZaz7pS",
+    "firstName": "Demo",
+    "lastName": "User",
+    "preferences": {},
+    "createdAt": 1758445630739,
+    "updatedAt": "2025-09-21T09:07:10.740Z"
+  },
+  {
+    "id": "d164fc8e-92b7-49ff-b49c-0fd251637c85",
+    "email": "testuser132@example.com",
+    "username": "testuser",
+    "password": "$2a$12$9tpFdxgtFOAs2Ua4O6738eLF5WCJkRNUuq2mBI/DAdYRXYJpE62Bm",
+    "firstName": "Test",
+    "lastName": "User",
+    "preferences": {
+      "defaultStore": "Store A",
+      "currency": "USD"
+    },
+    "createdAt": 1758445694628,
+    "updatedAt": "2025-09-21T09:08:14.629Z"
+  },
+  {
+    "id": "96019112-c3fb-4d9d-99d1-7aae2aea6ba0",
+    "email": "user321@example.com",
+    "username": "user123",
+    "password": "$2a$12$HQNByVb9p.G4YHVhHtVgEePJlXBk8YriOI.qdjJro5hI2ZO1oo8Di",
+    "firstName": "John",
+    "lastName": "Doe",
+    "preferences": {},
+    "createdAt": 1758446696006,
+    "updatedAt": "2025-09-21T09:24:56.006Z"
+  },
+  {
+    "id": "15a0bebd-cf97-416c-b606-ec36b36adaab",
+    "email": "updated@example.com",
+    "username": "user123",
+    "password": "$2a$12$CZ8co1iMm.zXXXrKcjVhueRYw6c9226ZZ0pVRP8mul3/VYIQ7lhri",
+    "firstName": "John Updated",
+    "lastName": "Doe Updated",
+    "preferences": {},
+    "createdAt": 1758447056397,
+    "updatedAt": "2025-09-21T09:31:55.574Z"
+  },
+  {
+    "id": "0184871b-0e53-4da3-9a9f-330f0b76558a",
+    "email": "demo.3213333@email.com",
+    "username": "demouser",
+    "password": "$2a$12$ZHwRcM2iewhb3Lphe0X6.eOMGT4w11QLd6b8hN8V/V9SpxMhUpFHq",
+    "firstName": "Demo",
+    "lastName": "User",
+    "preferences": {},
+    "createdAt": 1758447370527,
+    "updatedAt": "2025-09-21T09:36:10.528Z"
+  },
+  {
+    "id": "765f4d1a-9f90-4726-b40b-91e6b2ed4590",
+    "email": "demo.3@email.com",
+    "username": "demouser",
+    "password": "$2a$12$10s7n.Nq7XpCzW4fcyDtGOBlNB4z.JK9R5L.umjBA1.nT8bmFb74i",
+    "firstName": "Demo",
+    "lastName": "User",
+    "preferences": {},
+    "createdAt": 1758447420070,
+    "updatedAt": "2025-09-21T09:37:00.071Z"
+  },
+  {
+    "id": "33738018-2c81-4f1e-9c34-ca769dc32282",
+    "email": "user111@example.com",
+    "username": "user123",
+    "password": "$2a$12$cz1cRhoX6wOOpihocUOUoOFXfmX7HpE1aA/uG/vBZAB6R6twskasC",
+    "firstName": "John",
+    "lastName": "Doe",
+    "preferences": {},
+    "createdAt": 1758447708273,
+    "updatedAt": "2025-09-21T09:41:48.274Z"
+  },
+  {
+    "id": "4825e114-d6b0-4c89-8c37-e8c1046c899f",
+    "email": "testuser223@example.com",
+    "username": "testuser",
+    "password": "$2a$12$RA6drz6TJKe3tj9.5JCBj.m/qfxqxOxuhelS1NoXeeNE9OQR5yUry",
+    "firstName": "Test",
+    "lastName": "User",
+    "preferences": {
+      "defaultStore": "Store A",
+      "currency": "USD"
+    },
+    "createdAt": 1758447956969,
+    "updatedAt": "2025-09-21T09:45:56.970Z"
+  },
+  {
+    "id": "653e23e4-79e5-408a-a1b2-728dd91cd8eb",
+    "email": "demo@email.com",
+    "username": "demouser",
+    "password": "$2a$12$LK2ylDlK9yfmYB1A1Z8zj.YOv9D0RPW2Znw/tHhdxWPl5ZIKx9ZJ.",
+    "firstName": "Demo",
+    "lastName": "User",
+    "preferences": {},
+    "createdAt": 1758448088470,
+    "updatedAt": "2025-09-21T09:48:08.470Z"
+  }
+]

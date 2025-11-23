@@ -1,0 +1,827 @@
+[
+  {
+    "id": "bc8d0302-99a5-40e4-af0c-992529cdb061",
+    "userId": "user123",
+    "name": "Lista do Supermercado",
+    "description": "Compras do mês",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-20T09:19:14.392Z",
+    "updatedAt": "2025-09-20T09:19:14.392Z"
+  },
+  {
+    "id": "5fb65c1f-a83c-4433-a967-46e6b5836cea",
+    "userId": "user123",
+    "name": "Lista do Supermercado",
+    "description": "Compras do mês",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-20T09:19:54.955Z",
+    "updatedAt": "2025-09-20T09:19:54.957Z"
+  },
+  {
+    "id": "38b2c175-3098-4f0b-bb3c-5a7e42bb408f",
+    "userId": "user123",
+    "name": "Lista do Supermercado",
+    "description": "Compras do mês",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-20T09:20:02.281Z",
+    "updatedAt": "2025-09-20T09:20:02.282Z"
+  },
+  {
+    "id": "25fd4bd4-0296-4a8d-beb2-6a98cff3e7f2",
+    "userId": "user123",
+    "name": "Lista do Supermercado",
+    "description": "Compras do mês",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-20T09:20:02.866Z",
+    "updatedAt": "2025-09-20T09:20:02.867Z"
+  },
+  {
+    "id": "e4bb2600-1dfe-446d-bdad-067d238a1d41",
+    "userId": "user123",
+    "name": "Lista do Supermercado",
+    "description": "Compras do mês",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-20T09:20:03.321Z",
+    "updatedAt": "2025-09-20T09:20:03.321Z"
+  },
+  {
+    "id": "9cedaf77-f16f-4c8b-91fd-b6dcaf42293d",
+    "userId": "f9788dd4-441b-4a39-8ecb-5bebd6d235c8",
+    "name": "Lista do Supermercado",
+    "description": "Compras do mês",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-20T09:20:46.185Z",
+    "updatedAt": "2025-09-20T09:20:46.187Z"
+  },
+  {
+    "id": "78efa8ed-4bbe-48bf-b4ac-c773ebae0394",
+    "userId": "f9788dd4-441b-4a39-8ecb-5bebd6d235c8",
+    "name": "Lista do Supermercado",
+    "description": "Compras do mês",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-20T09:20:48.880Z",
+    "updatedAt": "2025-09-20T09:20:48.881Z"
+  },
+  {
+    "id": "9e6ba3ba-3e89-4dac-a7e0-e9cdb76221e6",
+    "userId": "f9788dd4-441b-4a39-8ecb-5bebd6d235c8",
+    "name": "Lista do Supermercado",
+    "description": "Compras do mês",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-20T09:20:51.026Z",
+    "updatedAt": "2025-09-20T09:20:51.027Z"
+  },
+  {
+    "id": "83264156-8ff2-4f73-b844-ed8f547750c8",
+    "userId": "user123",
+    "name": "Lista do Supermercado",
+    "description": "Compras do mês",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-20T09:21:23.286Z",
+    "updatedAt": "2025-09-20T09:21:23.287Z"
+  },
+  {
+    "id": "20c9c819-f88a-418d-aabe-1b227a3ad1f5",
+    "userId": "a3d58ab9-1399-4940-9ded-0eff866c1e3f",
+    "name": "Lista do Supermercado",
+    "description": "Compras do mês",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-20T09:21:43.822Z",
+    "updatedAt": "2025-09-20T09:21:43.822Z"
+  },
+  {
+    "id": "e9ee753a-dc54-4de9-ac85-d77a8b5a4e1c",
+    "userId": "a",
+    "name": "Lista do Supermercado",
+    "description": "Compras do mês",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-20T09:21:50.277Z",
+    "updatedAt": "2025-09-20T09:21:50.277Z"
+  },
+  {
+    "id": "72886e3b-4e17-48ac-9f50-9cac8d09baa1",
+    "userId": "265a21c5-957e-4b2f-9b42-db16962b8830",
+    "name": "Lista do Supermercado",
+    "description": "Compras do mês",
+    "status": "active",
+    "items": [
+      {
+        "id": "71305936-2d14-49c6-8171-53eb4bdb9ba3",
+        "itemId": "5f14fd44-9fe4-464a-a954-e180dded8a7e",
+        "itemName": "Arroz Tipo 1",
+        "quantity": 3,
+        "unit": "kg",
+        "estimatedPrice": 4.5,
+        "purchased": false,
+        "notes": "Arroz integral",
+        "addedAt": "2025-09-20T21:45:35.961Z"
+      }
+    ],
+    "summary": {
+      "totalItems": 1,
+      "purchasedItems": 0,
+      "estimatedTotal": 13.5
+    },
+    "createdAt": "2025-09-20T21:44:40.722Z",
+    "updatedAt": "2025-09-20T21:48:55.870Z"
+  },
+  {
+    "id": "e4e29ce5-69e8-4f95-aa77-b5aa14df0e5f",
+    "userId": "38c97ab8-5313-4af6-aa60-a5e297a29404",
+    "name": "Minha Lista de Compras Demo",
+    "description": "Lista criada pela demonstração do client",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-20T23:24:04.341Z",
+    "updatedAt": "2025-09-20T23:24:04.342Z"
+  },
+  {
+    "id": "7d96b3e5-a7ed-4f04-a00b-7bbe75334296",
+    "userId": "62ea16c7-4946-49b2-8d1f-7a55f5421931",
+    "name": "Lista Atualizada",
+    "description": "Nova descrição",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-20T23:32:22.890Z",
+    "updatedAt": "2025-09-21T09:05:24.221Z"
+  },
+  {
+    "id": "1370f46f-660f-46f8-a938-f794de614411",
+    "userId": "30fb1a7e-0931-4c56-a9f2-4599edc8d6f9",
+    "name": "Minha Lista de Compras",
+    "description": "Lista criada via demo",
+    "status": "active",
+    "items": [
+      {
+        "id": "9e92c597-c202-4aef-8804-a1c3a6d17566",
+        "itemId": "5f14fd44-9fe4-464a-a954-e180dded8a7e",
+        "itemName": "Arroz Tipo 1",
+        "quantity": 2,
+        "unit": "kg",
+        "estimatedPrice": 4.5,
+        "purchased": false,
+        "notes": "Comprar para o mês",
+        "addedAt": "2025-09-20T23:54:17.898Z"
+      }
+    ],
+    "summary": {
+      "totalItems": 1,
+      "purchasedItems": 0,
+      "estimatedTotal": 9
+    },
+    "createdAt": "2025-09-20T23:54:17.856Z",
+    "updatedAt": "2025-09-20T23:54:17.902Z"
+  },
+  {
+    "id": "656bb9e3-3975-4faf-8c4e-27dfe70e121d",
+    "userId": "30fb1a7e-0931-4c56-a9f2-4599edc8d6f9",
+    "name": "Minha Lista de Compras",
+    "description": "Lista criada via demo",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-20T23:59:37.611Z",
+    "updatedAt": "2025-09-20T23:59:37.612Z"
+  },
+  {
+    "id": "761be2e0-38da-4a9b-8f31-c9899db278b1",
+    "userId": "30fb1a7e-0931-4c56-a9f2-4599edc8d6f9",
+    "name": "Minha Lista de Compras",
+    "description": "Lista criada via demo",
+    "status": "active",
+    "items": [
+      {
+        "id": "7155ee0d-4ae9-43bf-96b4-b370307ab080",
+        "itemId": "5f14fd44-9fe4-464a-a954-e180dded8a7e",
+        "itemName": "Arroz Tipo 1",
+        "quantity": 2,
+        "unit": "kg",
+        "estimatedPrice": 4.5,
+        "purchased": false,
+        "notes": "Comprar para o mês",
+        "addedAt": "2025-09-21T00:02:08.652Z"
+      }
+    ],
+    "summary": {
+      "totalItems": 1,
+      "purchasedItems": 0,
+      "estimatedTotal": 9
+    },
+    "createdAt": "2025-09-21T00:02:08.611Z",
+    "updatedAt": "2025-09-21T00:02:08.656Z"
+  },
+  {
+    "id": "a722e682-766e-4c82-b86f-dbee4c106750",
+    "userId": "30fb1a7e-0931-4c56-a9f2-4599edc8d6f9",
+    "name": "Minha Lista de Compras",
+    "description": "Lista criada via demo",
+    "status": "active",
+    "items": [
+      {
+        "id": "6b98fd85-14f0-48a3-9e55-0e289c958ec9",
+        "itemId": "5f14fd44-9fe4-464a-a954-e180dded8a7e",
+        "itemName": "Arroz Tipo 1",
+        "quantity": 2,
+        "unit": "kg",
+        "estimatedPrice": 4.5,
+        "purchased": false,
+        "notes": "Comprar para o mês",
+        "addedAt": "2025-09-21T00:17:44.339Z"
+      }
+    ],
+    "summary": {
+      "totalItems": 1,
+      "purchasedItems": 0,
+      "estimatedTotal": 9
+    },
+    "createdAt": "2025-09-21T00:17:44.298Z",
+    "updatedAt": "2025-09-21T00:17:44.342Z"
+  },
+  {
+    "id": "f12c14e8-9c31-4e1b-89d0-4e538a2dfe0f",
+    "userId": "30fb1a7e-0931-4c56-a9f2-4599edc8d6f9",
+    "name": "Minha Lista de Compras",
+    "description": "Lista criada via demo",
+    "status": "active",
+    "items": [
+      {
+        "id": "c58068c8-84c8-4200-8320-9969746df2a7",
+        "itemId": "5f14fd44-9fe4-464a-a954-e180dded8a7e",
+        "itemName": "Arroz Tipo 1",
+        "quantity": 2,
+        "unit": "kg",
+        "estimatedPrice": 4.5,
+        "purchased": false,
+        "notes": "Comprar para o mês",
+        "addedAt": "2025-09-21T00:20:41.065Z"
+      }
+    ],
+    "summary": {
+      "totalItems": 1,
+      "purchasedItems": 0,
+      "estimatedTotal": 9
+    },
+    "createdAt": "2025-09-21T00:20:41.048Z",
+    "updatedAt": "2025-09-21T00:20:41.068Z"
+  },
+  {
+    "id": "0dabfbf1-fcf9-4ecf-ad46-ca3a6d2ef189",
+    "userId": "30fb1a7e-0931-4c56-a9f2-4599edc8d6f9",
+    "name": "Minha Lista de Compras",
+    "description": "Lista criada via demo",
+    "status": "active",
+    "items": [
+      {
+        "id": "39219a33-1763-4ef7-9a14-089eee879f7c",
+        "itemId": "5f14fd44-9fe4-464a-a954-e180dded8a7e",
+        "itemName": "Arroz Tipo 1",
+        "quantity": 2,
+        "unit": "kg",
+        "estimatedPrice": 4.5,
+        "purchased": false,
+        "notes": "Comprar para o mês",
+        "addedAt": "2025-09-21T00:21:22.759Z"
+      }
+    ],
+    "summary": {
+      "totalItems": 1,
+      "purchasedItems": 0,
+      "estimatedTotal": 9
+    },
+    "createdAt": "2025-09-21T00:21:22.742Z",
+    "updatedAt": "2025-09-21T00:21:22.762Z"
+  },
+  {
+    "id": "d552e059-671f-461b-82ba-c65ec46c453e",
+    "userId": "30fb1a7e-0931-4c56-a9f2-4599edc8d6f9",
+    "name": "Minha Lista de Compras",
+    "description": "Lista criada via demo",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-21T00:23:21.388Z",
+    "updatedAt": "2025-09-21T00:23:21.388Z"
+  },
+  {
+    "id": "9c79488c-11ff-4a93-a8fe-9a71d20b5cab",
+    "userId": "30fb1a7e-0931-4c56-a9f2-4599edc8d6f9",
+    "name": "Minha Lista de Compras",
+    "description": "Lista criada via demo",
+    "status": "active",
+    "items": [
+      {
+        "id": "74531528-ef58-46ed-8420-0842c7d30acf",
+        "itemId": "5f14fd44-9fe4-464a-a954-e180dded8a7e",
+        "itemName": "Arroz Tipo 1",
+        "quantity": 2,
+        "unit": "kg",
+        "estimatedPrice": 4.5,
+        "purchased": false,
+        "notes": "Comprar para o mês",
+        "addedAt": "2025-09-21T00:24:05.635Z"
+      }
+    ],
+    "summary": {
+      "totalItems": 1,
+      "purchasedItems": 0,
+      "estimatedTotal": 9
+    },
+    "createdAt": "2025-09-21T00:24:05.594Z",
+    "updatedAt": "2025-09-21T00:24:05.639Z"
+  },
+  {
+    "id": "3dfe99d6-4ecc-4aeb-b02f-022e912f901f",
+    "userId": "30fb1a7e-0931-4c56-a9f2-4599edc8d6f9",
+    "name": "Minha Lista de Compras",
+    "description": "Lista criada via demo",
+    "status": "active",
+    "items": [
+      {
+        "id": "0d591fb8-243e-40ea-99a7-0f3ac311b6cf",
+        "itemId": "5f14fd44-9fe4-464a-a954-e180dded8a7e",
+        "itemName": "Arroz Tipo 1",
+        "quantity": 2,
+        "unit": "kg",
+        "estimatedPrice": 4.5,
+        "purchased": false,
+        "notes": "Comprar para o mês",
+        "addedAt": "2025-09-21T00:26:24.998Z"
+      }
+    ],
+    "summary": {
+      "totalItems": 1,
+      "purchasedItems": 0,
+      "estimatedTotal": 9
+    },
+    "createdAt": "2025-09-21T00:26:24.978Z",
+    "updatedAt": "2025-09-21T00:26:25.001Z"
+  },
+  {
+    "id": "0a45e269-9eac-49ed-bac1-106a154e8aff",
+    "userId": "30fb1a7e-0931-4c56-a9f2-4599edc8d6f9",
+    "name": "Minha Lista de Compras",
+    "description": "Lista criada via demo",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-21T00:51:05.335Z",
+    "updatedAt": "2025-09-21T00:51:05.336Z"
+  },
+  {
+    "id": "c6d8743d-0ab9-41fe-b21b-841cb5dfa3fb",
+    "userId": "e9181b50-cce4-4954-961f-3df0a38748cb",
+    "name": "Minha Lista de Compras",
+    "description": "Lista criada via demo",
+    "status": "active",
+    "items": [
+      {
+        "id": "72edd0d2-6cd3-4489-93d5-b215eb73b267",
+        "itemId": "5f14fd44-9fe4-464a-a954-e180dded8a7e",
+        "itemName": "Arroz Tipo 1",
+        "quantity": 2,
+        "unit": "kg",
+        "estimatedPrice": 4.5,
+        "purchased": false,
+        "notes": "Comprar para o mês",
+        "addedAt": "2025-09-21T00:56:39.154Z"
+      }
+    ],
+    "summary": {
+      "totalItems": 1,
+      "purchasedItems": 0,
+      "estimatedTotal": 9
+    },
+    "createdAt": "2025-09-21T00:56:39.109Z",
+    "updatedAt": "2025-09-21T00:56:39.157Z"
+  },
+  {
+    "id": "040f5f68-a137-49cc-9677-7ae98bd3c2dc",
+    "userId": "265a21c5-957e-4b2f-9b42-db16962b8830",
+    "name": "Lista do Supermercado",
+    "description": "Compras do mês",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-21T08:32:28.620Z",
+    "updatedAt": "2025-09-21T08:32:28.620Z"
+  },
+  {
+    "id": "be167f32-412e-4046-923d-f13759714c9d",
+    "userId": "265a21c5-957e-4b2f-9b42-db16962b8830",
+    "name": "Lista do Supermercado",
+    "description": "Compras do mês",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-21T08:32:57.178Z",
+    "updatedAt": "2025-09-21T08:32:57.179Z"
+  },
+  {
+    "id": "fe27987d-eadb-4894-b5a1-b94fe68f6acd",
+    "userId": "48707cf1-4e06-4f90-9b58-6cb49017b959",
+    "name": "Minha Lista de Compras",
+    "description": "Lista criada via demo",
+    "status": "active",
+    "items": [
+      {
+        "id": "d1294fca-270d-49ca-ab01-15ac03f4ca6a",
+        "itemId": "5f14fd44-9fe4-464a-a954-e180dded8a7e",
+        "itemName": "Arroz Tipo 1",
+        "quantity": 2,
+        "unit": "kg",
+        "estimatedPrice": 4.5,
+        "purchased": false,
+        "notes": "Comprar para o mês",
+        "addedAt": "2025-09-21T08:41:19.517Z"
+      }
+    ],
+    "summary": {
+      "totalItems": 1,
+      "purchasedItems": 0,
+      "estimatedTotal": 9
+    },
+    "createdAt": "2025-09-21T08:41:19.466Z",
+    "updatedAt": "2025-09-21T08:41:19.522Z"
+  },
+  {
+    "id": "393a7621-a10b-44fc-a00e-f6bbaafa9032",
+    "userId": "265a21c5-957e-4b2f-9b42-db16962b8830",
+    "name": "Lista do Supermercado",
+    "description": "Compras do mês",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-21T08:43:37.017Z",
+    "updatedAt": "2025-09-21T08:43:37.019Z"
+  },
+  {
+    "id": "9ffc67f7-735d-47e1-afa0-0e909263e646",
+    "userId": "78c61565-a718-4aeb-b8cf-0d9d05b78712",
+    "name": "Lista Atualizada",
+    "description": "Nova descrição da lista",
+    "status": "completed",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-21T08:46:33.048Z",
+    "updatedAt": "2025-09-21T08:47:26.907Z"
+  },
+  {
+    "id": "914c4a2b-f3b0-453c-91b9-f18e6d4cbff8",
+    "userId": "265a21c5-957e-4b2f-9b42-db16962b8830",
+    "name": "Lista do Supermercado",
+    "description": "Compras do mês",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-21T08:51:00.678Z",
+    "updatedAt": "2025-09-21T08:51:00.680Z"
+  },
+  {
+    "id": "60ee768e-d1b9-43b9-95df-3748cf0a0535",
+    "userId": "9ee0addb-8034-4dc1-8202-eb8277e12610",
+    "name": "Lista Atualizada",
+    "description": "Nova descrição da lista",
+    "status": "completed",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-21T08:51:24.173Z",
+    "updatedAt": "2025-09-21T08:52:20.970Z"
+  },
+  {
+    "id": "22fa34a9-877a-4f5d-bbaa-15194744930c",
+    "userId": "62ea16c7-4946-49b2-8d1f-7a55f5421931",
+    "name": "Minha Lista de Compras",
+    "description": "Lista para supermercado",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-21T09:03:51.498Z",
+    "updatedAt": "2025-09-21T09:03:51.500Z"
+  },
+  {
+    "id": "2d25ddae-9845-4c89-9828-38fcc57e8861",
+    "userId": "62ea16c7-4946-49b2-8d1f-7a55f5421931",
+    "name": "Minha Lista de Compras",
+    "description": "Lista para supermercado",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-21T09:04:42.047Z",
+    "updatedAt": "2025-09-21T09:04:42.048Z"
+  },
+  {
+    "id": "05bed859-bf1c-46d8-8fed-f038a34731d9",
+    "userId": "2b2e5f2f-c702-47d6-812c-8321acbe586e",
+    "name": "Minha Lista de Compras",
+    "description": "Lista criada via demo",
+    "status": "active",
+    "items": [
+      {
+        "id": "788cc600-b6b1-492f-b3c7-b808c3d86233",
+        "itemId": "5f14fd44-9fe4-464a-a954-e180dded8a7e",
+        "itemName": "Arroz Tipo 1",
+        "quantity": 2,
+        "unit": "kg",
+        "estimatedPrice": 4.5,
+        "purchased": false,
+        "notes": "Comprar para o mês",
+        "addedAt": "2025-09-21T09:07:11.135Z"
+      }
+    ],
+    "summary": {
+      "totalItems": 1,
+      "purchasedItems": 0,
+      "estimatedTotal": 9
+    },
+    "createdAt": "2025-09-21T09:07:11.097Z",
+    "updatedAt": "2025-09-21T09:07:11.140Z"
+  },
+  {
+    "id": "ee986b3a-93e4-41c7-9c1e-c6f02cb447d9",
+    "userId": "d164fc8e-92b7-49ff-b49c-0fd251637c85",
+    "name": "Lista Atualizada",
+    "description": "Nova descrição da lista",
+    "status": "completed",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-21T09:08:54.646Z",
+    "updatedAt": "2025-09-21T09:09:36.704Z"
+  },
+  {
+    "id": "60458e48-74eb-4759-b647-c42005b540aa",
+    "userId": "96019112-c3fb-4d9d-99d1-7aae2aea6ba0",
+    "name": "Lista Atualizada",
+    "description": "Nova descrição",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-21T09:27:12.275Z",
+    "updatedAt": "2025-09-21T09:27:52.305Z"
+  },
+  {
+    "id": "ad2c4af9-bdeb-4e44-b1cf-5b2f322eb1b5",
+    "userId": "15a0bebd-cf97-416c-b606-ec36b36adaab",
+    "name": "Minha Lista de Compras",
+    "description": "Lista para supermercado",
+    "status": "active",
+    "items": [
+      {
+        "id": "c27cea07-4773-40e5-af2a-b9eb7dd0ed24",
+        "itemId": "4ffc71a5-bbb9-40ed-8d33-1424e4c4b6fb",
+        "itemName": "Produto Atualizado",
+        "quantity": 2,
+        "unit": "un",
+        "estimatedPrice": 6.5,
+        "purchased": false,
+        "notes": "Comprar na promoção",
+        "addedAt": "2025-09-21T09:33:39.182Z"
+      }
+    ],
+    "summary": {
+      "totalItems": 1,
+      "purchasedItems": 0,
+      "estimatedTotal": 13
+    },
+    "createdAt": "2025-09-21T09:32:46.958Z",
+    "updatedAt": "2025-09-21T09:33:39.186Z"
+  },
+  {
+    "id": "6300f932-adcf-40f3-9fb3-e46ab74ec40e",
+    "userId": "0184871b-0e53-4da3-9a9f-330f0b76558a",
+    "name": "Minha Lista de Compras",
+    "description": "Lista criada via demo",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-21T09:36:10.886Z",
+    "updatedAt": "2025-09-21T09:36:10.887Z"
+  },
+  {
+    "id": "6a41ac7f-f11c-4472-91af-149869eee2a9",
+    "userId": "765f4d1a-9f90-4726-b40b-91e6b2ed4590",
+    "name": "Minha Lista de Compras",
+    "description": "Lista criada via demo",
+    "status": "active",
+    "items": [
+      {
+        "id": "32206f11-f998-4386-84b3-4ea597386d6e",
+        "itemId": "5f14fd44-9fe4-464a-a954-e180dded8a7e",
+        "itemName": "Arroz Tipo 1",
+        "quantity": 2,
+        "unit": "kg",
+        "estimatedPrice": 4.5,
+        "purchased": false,
+        "notes": "Comprar para o mês",
+        "addedAt": "2025-09-21T09:37:00.495Z"
+      }
+    ],
+    "summary": {
+      "totalItems": 1,
+      "purchasedItems": 0,
+      "estimatedTotal": 9
+    },
+    "createdAt": "2025-09-21T09:37:00.452Z",
+    "updatedAt": "2025-09-21T09:37:00.499Z"
+  },
+  {
+    "id": "ea7becfe-f806-44a4-a179-288575449159",
+    "userId": "33738018-2c81-4f1e-9c34-ca769dc32282",
+    "name": "Minha Lista de Compras",
+    "description": "Lista para supermercado",
+    "status": "active",
+    "items": [
+      {
+        "id": "7c4b9a91-4f10-42a1-b912-3d261d1c26c0",
+        "itemId": "c6608085-2996-4356-8235-7ccded019dd0",
+        "itemName": "Cardapio",
+        "quantity": 2,
+        "unit": "un",
+        "estimatedPrice": 5.99,
+        "purchased": false,
+        "notes": "Comprar na promoção",
+        "addedAt": "2025-09-21T09:44:47.812Z"
+      }
+    ],
+    "summary": {
+      "totalItems": 1,
+      "purchasedItems": 0,
+      "estimatedTotal": 11.98
+    },
+    "createdAt": "2025-09-21T09:43:24.721Z",
+    "updatedAt": "2025-09-21T09:44:47.817Z"
+  },
+  {
+    "id": "b16ad59a-dc3f-430c-8fec-9d51f4613250",
+    "userId": "4825e114-d6b0-4c89-8c37-e8c1046c899f",
+    "name": "Lista do Supermercado",
+    "description": "Compras do mês",
+    "status": "active",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-09-21T09:46:34.720Z",
+    "updatedAt": "2025-09-21T09:46:34.721Z"
+  },
+  {
+    "id": "76e03780-a741-4a3a-8826-294c5395114a",
+    "userId": "653e23e4-79e5-408a-a1b2-728dd91cd8eb",
+    "name": "Minha Lista de Compras",
+    "description": "Lista criada via demo",
+    "status": "active",
+    "items": [
+      {
+        "id": "ae7d9fa1-6609-4c24-bac9-851baeb11251",
+        "itemId": "5f14fd44-9fe4-464a-a954-e180dded8a7e",
+        "itemName": "Arroz Tipo 1",
+        "quantity": 2,
+        "unit": "kg",
+        "estimatedPrice": 4.5,
+        "purchased": false,
+        "notes": "Comprar para o mês",
+        "addedAt": "2025-09-21T09:48:08.842Z"
+      }
+    ],
+    "summary": {
+      "totalItems": 1,
+      "purchasedItems": 0,
+      "estimatedTotal": 9
+    },
+    "createdAt": "2025-09-21T09:48:08.825Z",
+    "updatedAt": "2025-09-21T09:48:08.846Z"
+  }
+]

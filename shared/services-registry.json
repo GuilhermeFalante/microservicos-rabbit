@@ -1,0 +1,39 @@
+{
+  "auth-service": {
+    "url": "http://localhost:3000",
+    "registeredAt": 1758407711039,
+    "lastHealthCheck": 1763915318723,
+    "healthy": true,
+    "pid": 18128
+  },
+  "list-service": {
+    "url": "http://localhost:3002",
+    "registeredAt": 1763914595688,
+    "lastHealthCheck": 1763915318727,
+    "healthy": true,
+    "pid": 3356
+  },
+  "item-service": {
+    "url": "http://localhost:3003",
+    "registeredAt": 1763914595519,
+    "lastHealthCheck": 1763915318730,
+    "healthy": true,
+    "pid": 5484
+  },
+  "user-service": {
+    "url": "http://localhost:3001",
+    "version": "1.0.0",
+    "database": "JSON-NoSQL",
+    "endpoints": [
+      "/health",
+      "/auth/register",
+      "/auth/login",
+      "/users",
+      "/search"
+    ],
+    "registeredAt": 1763914595598,
+    "lastHealthCheck": 1763915318735,
+    "healthy": true,
+    "pid": 2968
+  }
+}
