@@ -49,6 +49,9 @@ async function validateUserId(req, res, next) {
     const decoded = jwt.verify(token, process.env.JWT_SECRET || 'user-secret');
     const userId = decoded.id;
 
+  // debug: mostrar conteúdo do token decodificado para ajudar a entender por que a rota não é alcançada
+  console.log('[validateUserId] token decodificado:', { id: decoded.id, email: decoded.email });
+
     if (!userId) {
       return res.status(401).json({ error: 'Token inválido: userId não encontrado' });
     }
@@ -176,23 +179,23 @@ app.post('/lists/:id/checkout', validateUserId, checkListOwnership, async (req, 
     const { id } = req.params;
     const list = req.list;
 
-    // Marca a lista como completed localmente
+    if (list.status === 'completed') {
+      return res.status(400).json({ error: 'Lista já está finalizada. Não é possível efetuar checkout novamente.' });
+    }
+    
     const updated = await listDb.update(id, { 
       status: 'completed', 
       updatedAt: new Date().toISOString() 
     });
 
-    // Responder imediatamente com 202 Accepted
     res.status(202).json({ 
       message: 'Checkout recebido. Processando.',
       listId: id 
     });
 
-    // Publicar evento em background
     const event = {
       id: updated.id,
       userId: updated.userId,
-      // incluir email do usuário (se disponível no token)
       userEmail: req.userEmail || null,
       items: updated.items,
       summary: updated.summary,
@@ -278,6 +281,10 @@ app.post('/lists/:id/items', validateUserId, checkListOwnership, async (req, res
       return res.status(400).json({ error: 'itemId é obrigatório' });
     }
 
+    // Do not allow adding items to a completed list
+    if (req.list && req.list.status === 'completed') {
+      return res.status(400).json({ error: 'Não é possível adicionar itens a uma lista finalizada.' });
+    }
     // Buscar informações do item no Item Service
     const itemInfo = await getItemInfo(itemId);
     

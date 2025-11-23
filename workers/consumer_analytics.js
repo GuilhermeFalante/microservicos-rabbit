@@ -35,7 +35,7 @@ async function start() {
           total = calcTotalFromItems(payload.items);
         }
 
-        console.log(`[Analytics Worker] Lista ${payload.id} total gasto R$ ${total.toFixed(2)} - atualizando dashboard (simulado)`);
+        console.log(`[Analytics Worker] Lista ${payload.id} total gasto R$ ${total.toFixed(2)})`);
 
         ch.ack(msg);
       } catch (err) {

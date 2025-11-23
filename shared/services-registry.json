@@ -1,9 +1,18 @@
 {
-  "auth-service": {
-    "url": "http://localhost:3000",
-    "registeredAt": 1758407711039,
-    "lastHealthCheck": 1763933363402,
+  "user-service": {
+    "url": "http://localhost:3001",
+    "version": "1.0.0",
+    "database": "JSON-NoSQL",
+    "endpoints": [
+      "/health",
+      "/auth/register",
+      "/auth/login",
+      "/users",
+      "/search"
+    ],
+    "registeredAt": 1763934543720,
+    "lastHealthCheck": 1763934576659,
     "healthy": true,
-    "pid": 18128
+    "pid": 24624
   }
 }

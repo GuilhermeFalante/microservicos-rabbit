@@ -938,6 +938,21 @@
       "estimatedTotal": 0
     },
     "createdAt": "2025-11-23T20:42:39.594Z",
-    "updatedAt": "2025-11-23T21:28:45.198Z"
+    "updatedAt": "2025-11-23T21:34:47.835Z"
+  },
+  {
+    "id": "dae900c0-9f48-4ebf-87ae-da29a9fe5a56",
+    "userId": "265a21c5-957e-4b2f-9b42-db16962b8830",
+    "name": "Lista do Supermercado",
+    "description": "Compras do mês",
+    "status": "completed",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-11-23T21:35:05.566Z",
+    "updatedAt": "2025-11-23T21:44:30.989Z"
   }
 ]
