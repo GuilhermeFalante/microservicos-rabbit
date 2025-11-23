@@ -60,6 +60,8 @@ async function validateUserId(req, res, next) {
     }
 
     req.userId = userId;
+  // também expor email do token (se presente) para ser usado pelo serviço que publica eventos
+  req.userEmail = decoded.email || null;
     next();
   } catch (error) {
     console.error('Erro ao validar token:', error);
@@ -190,6 +192,8 @@ app.post('/lists/:id/checkout', validateUserId, checkListOwnership, async (req, 
     const event = {
       id: updated.id,
       userId: updated.userId,
+      // incluir email do usuário (se disponível no token)
+      userEmail: req.userEmail || null,
       items: updated.items,
       summary: updated.summary,
       timestamp: new Date().toISOString()

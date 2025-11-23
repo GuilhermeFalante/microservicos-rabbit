@@ -1,11 +1,9 @@
 const amqp = require('amqplib');
 const axios = require('axios');
 const serviceRegistry = require('../shared/serviceRegistry');
+const auth = require('../auth-token.json');
 
-require('dotenv').config();
-
-const RABBIT_URL = process.env.RABBITMQ_URL;
-
+const RABBIT_URL = 'amqps://nfhlhile:RLUSdDZdJAJzG1UG734lLSgerfPPVYyL@jackal.rmq.cloudamqp.com/nfhlhile';
 const EXCHANGE = 'shopping_events';
 const BINDING_KEY = 'list.checkout.#';
 
@@ -24,17 +22,17 @@ async function start() {
       if (!msg) return;
       try {
         const payload = JSON.parse(msg.content.toString());
-        let email = payload.userEmail;
 
-        if (!email) {
           try {
-            const userService = serviceRegistry.discover('user-service');
-            const resp = await axios.get(`${userService.url}/users/${payload.userId}`);
-            email = resp.data.email || payload.userId;
+            const resp = await axios.get(`http://localhost:3000/api/users/${payload.userId}`, {
+              headers: {
+                Authorization: `Bearer ${auth.token}`
+              }
+            });
+            email = resp.data.data.email;
           } catch (err) {
-            email = payload.userId; 
+            console.log(`Erro!`);
           }
-        }
 
         console.log(`Enviando comprovante da lista ${payload.id} para o usuário ${email}`);
         ch.ack(msg);

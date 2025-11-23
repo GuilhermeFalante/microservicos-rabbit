@@ -1,6 +1,6 @@
 {
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZWExNmM3LTQ5NDYtNDliMi04ZDFmLTdhNTVmNTQyMTkzMSIsImVtYWlsIjoidXNlckBleGFtcGxlLmNvbSIsInVzZXJuYW1lIjoidXNlcjEyMyIsImlhdCI6MTc1ODQxMDgyOSwiZXhwIjoxNzU4NDk3MjI5fQ.KE2iqGVJgs2G97qtMPel-gVk8mDCatJ89s4VHE9mOKg",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjI2NWEyMWM1LTk1N2UtNGIyZi05YjQyLWRiMTY5NjJiODgzMCIsImVtYWlsIjoidGVzdHVzZXIyQGV4YW1wbGUuY29tIiwidXNlcm5hbWUiOiJ0ZXN0dXNlciIsImlhdCI6MTc2MzkzMjc1OCwiZXhwIjoxNzY0MDE5MTU4fQ.qS0g2cFP1zzYC5v7smp4hPVzlp2Ji4GCrDtfLViq0Vg",
   "user": {
-    "email": "demo@example.com"
+    "email": "testuser2@example.com"
   }
 }
