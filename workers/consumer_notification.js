@@ -2,7 +2,10 @@ const amqp = require('amqplib');
 const axios = require('axios');
 const serviceRegistry = require('../shared/serviceRegistry');
 
-const RABBIT_URL = process.env.RABBITMQ_URL || 'amqp://localhost';
+require('dotenv').config();
+
+const RABBIT_URL = process.env.RABBITMQ_URL;
+
 const EXCHANGE = 'shopping_events';
 const BINDING_KEY = 'list.checkout.#';
 
@@ -23,14 +26,13 @@ async function start() {
         const payload = JSON.parse(msg.content.toString());
         let email = payload.userEmail;
 
-        // Tentar buscar email no user-service via service registry
         if (!email) {
           try {
             const userService = serviceRegistry.discover('user-service');
             const resp = await axios.get(`${userService.url}/users/${payload.userId}`);
             email = resp.data.email || payload.userId;
           } catch (err) {
-            email = payload.userId; // fallback
+            email = payload.userId; 
           }
         }
 
@@ -38,7 +40,6 @@ async function start() {
         ch.ack(msg);
       } catch (err) {
         console.error('[Notification Worker] Erro ao processar mensagem:', err.message);
-        // rejeitar e descartar
         ch.nack(msg, false, false);
       }
     });

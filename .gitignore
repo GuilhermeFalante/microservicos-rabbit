@@ -3,3 +3,5 @@
 /roteiros
 
 /user-service/node_modules
+
+.env

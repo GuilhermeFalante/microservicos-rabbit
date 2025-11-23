@@ -7,12 +7,8 @@ const fs = require('fs');
 const axios = require('axios');
 const jwt = require('jsonwebtoken'); 
 
-const amqp = require('amqplib');
-
-const RABBIT_URL = process.env.RABBITMQ_URL || 'amqp://localhost';
+const rabbit = require('../../shared/rabbitmq');
 const EXCHANGE = 'shopping_events';
-let rabbitConn = null;
-let rabbitChannel = null;
 
 const PORT = 3002;
 const dbDirectory = path.join(__dirname, 'database');
@@ -170,6 +166,41 @@ app.post('/lists', validateUserId, async (req, res) => {
   } catch (error) {
     console.error('Erro ao criar lista:', error);
     res.status(500).json({ error: 'Erro interno do servidor' });
+  }
+});
+
+app.post('/lists/:id/checkout', validateUserId, checkListOwnership, async (req, res) => {
+  try {
+    const { id } = req.params;
+    const list = req.list;
+
+    // Marca a lista como completed localmente
+    const updated = await listDb.update(id, { 
+      status: 'completed', 
+      updatedAt: new Date().toISOString() 
+    });
+
+    // Responder imediatamente com 202 Accepted
+    res.status(202).json({ 
+      message: 'Checkout recebido. Processando.',
+      listId: id 
+    });
+
+    // Publicar evento em background
+    const event = {
+      id: updated.id,
+      userId: updated.userId,
+      items: updated.items,
+      summary: updated.summary,
+      timestamp: new Date().toISOString()
+    };
+
+    rabbit.publish(EXCHANGE, 'list.checkout.completed', event)
+      .catch(err => console.error('Erro ao publicar evento:', err));
+
+  } catch (error) {
+    console.error('Erro ao processar checkout:', error);
+    res.status(500).json({ error: 'Erro interno ao processar checkout' });
   }
 });
 
@@ -350,34 +381,6 @@ app.get('/lists/:id/summary', validateUserId, checkListOwnership, async (req, re
   }
 });
 
-// POST /lists/:id/checkout - Finalizar/checkout da lista
-app.post('/lists/:id/checkout', validateUserId, checkListOwnership, async (req, res) => {
-  try {
-    const { id } = req.params;
-    const list = req.list;
-
-    // Marca a lista como completed localmente
-    const updated = await listDb.update(id, { status: 'completed', updatedAt: new Date().toISOString() });
-
-    // Responder imediatamente com 202 Accepted
-    res.status(202).json({ message: 'Checkout recebido. Processando.' });
-
-    // Construir evento e publicar em background (não bloquear a resposta HTTP)
-    const event = {
-      id: updated.id,
-      userId: updated.userId,
-      items: updated.items,
-      summary: updated.summary,
-      timestamp: new Date().toISOString()
-    };
-
-    // Fire-and-forget
-    publishCheckoutEvent(event).catch(err => console.error('Erro publish (background):', err));
-  } catch (error) {
-    console.error('Erro ao processar checkout:', error);
-    res.status(500).json({ error: 'Erro interno ao processar checkout' });
-  }
-});
 
 app.get('/health', (req, res) => {
   res.json({
@@ -387,41 +390,7 @@ app.get('/health', (req, res) => {
   });
 });
 
-// Inicializar conexão com RabbitMQ (não bloqueante para o servidor HTTP)
-async function initRabbitMQ() {
-  try {
-    rabbitConn = await amqp.connect(RABBIT_URL);
-    rabbitChannel = await rabbitConn.createChannel();
-    await rabbitChannel.assertExchange(EXCHANGE, 'topic', { durable: true });
-    console.log('RabbitMQ conectado e exchange garantida:', EXCHANGE);
-  } catch (error) {
-    console.error('Não foi possível conectar ao RabbitMQ:', error.message);
-    rabbitConn = null;
-    rabbitChannel = null;
-  }
-}
-
-async function publishCheckoutEvent(event) {
-  try {
-    if (!rabbitChannel) {
-      // Tentar criar conexão sob demanda
-      await initRabbitMQ();
-    }
-
-    if (!rabbitChannel) {
-      console.warn('RabbitMQ não disponível, descartando ou logando localmente o evento');
-      console.log('Checkout event:', event);
-      return;
-    }
-
-    const routingKey = 'list.checkout.completed';
-    const payload = Buffer.from(JSON.stringify(event));
-    rabbitChannel.publish(EXCHANGE, routingKey, payload, { persistent: true });
-    console.log(`Evento publicado no exchange=${EXCHANGE} routingKey=${routingKey}`);
-  } catch (error) {
-    console.error('Erro ao publicar evento de checkout:', error.message);
-  }
-}
+// publishCheckoutEvent é feito via shared/rabbitmq.publish
 
 // Inicializar o servidor
 app.listen(PORT, () => {

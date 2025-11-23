@@ -1,7 +1,9 @@
 const amqp = require('amqplib');
 const serviceRegistry = require('../shared/serviceRegistry');
 
-const RABBIT_URL = process.env.RABBITMQ_URL || 'amqp://localhost';
+require('dotenv').config();
+
+const RABBIT_URL = process.env.RABBITMQ_URL;
 const EXCHANGE = 'shopping_events';
 const BINDING_KEY = 'list.checkout.#';
 
@@ -25,7 +27,7 @@ async function start() {
       if (!msg) return;
       try {
         const payload = JSON.parse(msg.content.toString());
-        // Calcular total gasto
+
         let total = 0;
         if (payload.summary && payload.summary.estimatedTotal) {
           total = payload.summary.estimatedTotal;
@@ -34,9 +36,6 @@ async function start() {
         }
 
         console.log(`[Analytics Worker] Lista ${payload.id} total gasto R$ ${total.toFixed(2)} - atualizando dashboard (simulado)`);
-
-        // Simular trabalho pesado (não bloquear o loop de eventos)
-        // poderia enviar para um DB ou outro serviço
 
         ch.ack(msg);
       } catch (err) {

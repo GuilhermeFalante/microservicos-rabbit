@@ -13,6 +13,7 @@ const db = new JsonDatabase(dbDirectory, 'items');
 
 const app = express();
 app.use(express.json());
+const rabbit = require('../../shared/rabbitmq');
 
 async function readItems() {
   try {
@@ -63,6 +64,9 @@ app.post('/items', async (req, res) => {
   items.push(newItem);
   await writeItems(items);
 
+  // Publicar evento de criação de item (não bloquear resposta)
+  rabbit.publish('shopping_events', 'item.created', newItem).catch(err => console.error('Erro publish item.created:', err));
+
   res.status(201).json(newItem);
 });
 
@@ -82,6 +86,9 @@ app.put('/items/:id', async (req, res) => {
     updatedAt: new Date().toISOString() 
   };
   await writeItems(items);
+
+  // Publicar evento de atualização de item
+  rabbit.publish('shopping_events', 'item.updated', items[itemIndex]).catch(err => console.error('Erro publish item.updated:', err));
 
   res.json(items[itemIndex]);
 });
@@ -170,8 +177,10 @@ app.listen(PORT, async () => {
   console.log(`Item service running on port ${PORT}`);
 
   await seedInitialItems();
-
   serviceRegistry.register('item-service', {
     url: `http://localhost:${PORT}`
   });
+
+  // Tentar conectar ao RabbitMQ (não bloquear o servidor)
+  rabbit.connect().catch(err => console.warn('RabbitMQ init falhou (item-service):', err.message));
 });
