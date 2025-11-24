@@ -954,5 +954,95 @@
     },
     "createdAt": "2025-11-23T21:35:05.566Z",
     "updatedAt": "2025-11-23T21:44:30.989Z"
+  },
+  {
+    "id": "b9204a63-52b7-4ae8-8443-29a61bdc50bb",
+    "userId": "265a21c5-957e-4b2f-9b42-db16962b8830",
+    "name": "Lista do Supermercado",
+    "description": "Compras do mês",
+    "status": "completed",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-11-23T23:59:53.234Z",
+    "updatedAt": "2025-11-24T00:00:05.799Z"
+  },
+  {
+    "id": "e7bab7e3-9771-413f-9d0e-445129873754",
+    "userId": "265a21c5-957e-4b2f-9b42-db16962b8830",
+    "name": "Lista do Supermercado",
+    "description": "Compras do mês",
+    "status": "completed",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-11-24T00:05:14.743Z",
+    "updatedAt": "2025-11-24T00:05:24.029Z"
+  },
+  {
+    "id": "89ecc836-2c10-4abe-9f85-c8337f23c02f",
+    "userId": "265a21c5-957e-4b2f-9b42-db16962b8830",
+    "name": "Lista do Supermercado",
+    "description": "Compras do mês",
+    "status": "completed",
+    "items": [
+      {
+        "id": "b882b23d-5efa-4b2c-85b2-6387c82ad870",
+        "itemId": "5f14fd44-9fe4-464a-a954-e180dded8a7e",
+        "itemName": "Arroz Tipo 1",
+        "quantity": 3,
+        "unit": "kg",
+        "estimatedPrice": 4.5,
+        "purchased": false,
+        "notes": "Arroz integral",
+        "addedAt": "2025-11-24T00:06:52.684Z"
+      },
+      {
+        "id": "85f9cd5d-9500-49e7-8c56-dbad165562b6",
+        "itemId": "5f14fd44-9fe4-464a-a954-e180dded8a7e",
+        "itemName": "Arroz Tipo 1",
+        "quantity": 3,
+        "unit": "kg",
+        "estimatedPrice": 4.5,
+        "purchased": false,
+        "notes": "Arroz integral",
+        "addedAt": "2025-11-24T00:06:59.348Z"
+      },
+      {
+        "id": "0a1fbb03-2c31-4711-9a64-3926918ccdee",
+        "itemId": "5f14fd44-9fe4-464a-a954-e180dded8a7e",
+        "itemName": "Arroz Tipo 1",
+        "quantity": 3,
+        "unit": "kg",
+        "estimatedPrice": 4.5,
+        "purchased": false,
+        "notes": "Arroz integral",
+        "addedAt": "2025-11-24T00:06:59.853Z"
+      },
+      {
+        "id": "fe6bbf9d-a478-438d-9b67-dba19ba0d747",
+        "itemId": "5f14fd44-9fe4-464a-a954-e180dded8a7e",
+        "itemName": "Arroz Tipo 1",
+        "quantity": 3,
+        "unit": "kg",
+        "estimatedPrice": 4.5,
+        "purchased": false,
+        "notes": "Arroz integral",
+        "addedAt": "2025-11-24T00:07:00.388Z"
+      }
+    ],
+    "summary": {
+      "totalItems": 4,
+      "purchasedItems": 0,
+      "estimatedTotal": 54
+    },
+    "createdAt": "2025-11-24T00:06:42.363Z",
+    "updatedAt": "2025-11-24T00:07:08.857Z"
   }
 ]

@@ -49,7 +49,6 @@ async function validateUserId(req, res, next) {
     const decoded = jwt.verify(token, process.env.JWT_SECRET || 'user-secret');
     const userId = decoded.id;
 
-  // debug: mostrar conteúdo do token decodificado para ajudar a entender por que a rota não é alcançada
   console.log('[validateUserId] token decodificado:', { id: decoded.id, email: decoded.email });
 
     if (!userId) {

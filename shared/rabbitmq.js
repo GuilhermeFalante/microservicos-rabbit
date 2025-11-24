@@ -1,8 +1,9 @@
 const amqp = require('amqplib');
+const path = require('path');
 
-require('dotenv').config();
+require('dotenv').config({ path: path.resolve(__dirname, '.env') });
 
-const RABBIT_URL = process.env.RABBITMQ_URL;
+const RABBIT_URL = (process.env.RABBITMQ_URL || '').trim();
 
 let connection = null;
 let channel = null;
